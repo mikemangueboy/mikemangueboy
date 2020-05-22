@@ -4,6 +4,14 @@ module.exports = {
         author: 'Mayck Brito'
     },
     plugins: [
-        'gatsby-plugin-sass'
+        'gatsby-plugin-sass',
+
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: 'scr',
+                path: `${__dirname}/scr/`
+            }
+        }
     ]    
 }
