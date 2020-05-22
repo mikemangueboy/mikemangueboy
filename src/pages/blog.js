@@ -1,10 +1,11 @@
 import React from 'react'
-import { graphql, userStaticQuery } from 'gatsby'
+
+import { graphql, useStaticQuery } from 'gatsby'
 
 import Layout from '../components/layout'
 
 const BlogPage = () => {
-        const data = userStaticQuery(graphql`
+        const data = useStaticQuery(graphql`
             query {
                 allMarkdownRemark {
                     edges {
