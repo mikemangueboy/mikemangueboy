@@ -15,7 +15,7 @@ const Header = () => {
         `) 
 
     return (
-        <header className={headerStyle.header}>
+        <header data-title="Mike" className={headerStyle.header}>
             <h1>
                  <Link className={headerStyle.tittle}>
                     {data.site.siteMetadata.title}
