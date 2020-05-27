@@ -8,7 +8,10 @@ const IndexPage = () => {
     return (
         <Layout>
             <Head title='Home' />
-        <h2>I'm Mike, I try to develop, and living in the most hottest city in the world Recife.</h2>
+        <h3>Olá, seja bem vindo!
+            Aqui você vai achar muita coisa que talvez te deixe confuso, ou talvez te faça pensar
+            mas é um ambiente pra todos, just enjoy!
+        </h3>
         </Layout>
     )
 }
