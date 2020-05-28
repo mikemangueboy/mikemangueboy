@@ -6,7 +6,8 @@ module.exports = {
     plugins: [
       `gatsby-plugin-smoothscroll`
 
-      'gatsby-plugin-react-helmet',
+      `gatsby-plugin-react-helmet`,
+
       {
         resolve: 'gatsby-source-contentful',
         options:  {
