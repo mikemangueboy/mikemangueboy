@@ -1,0 +1,21 @@
+.goUp {
+    text-decoration: none;
+    background: #228B22;
+    bottom: 30px;
+    right: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px;
+    opacity: .3;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: .5rem;
+    position: fixed;
+    
+    
+  }
+  
+  .goUp:hover {
+    height: 5%;
+    opacity: .8;
+  }

@@ -7,10 +7,11 @@ import '../style/index.scss'
 import layoutStyle from './layout.module.scss'
 
 const Layout = (props) => {
+    const goUp = "goUp"
     return(
         <div className={layoutStyle.container}>
             <div className={layoutStyle.content}>
-            <Header />
+            <Header test = {goUp}/>
             {props.children}
             </div>
             <Footer />
