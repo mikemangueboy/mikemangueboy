@@ -4,7 +4,7 @@ module.exports = {
         author: 'Mayck Brito'
     },
     plugins: [
-      `gatsby-plugin-smoothscroll`
+      `gatsby-plugin-smoothscroll`,
 
       `gatsby-plugin-react-helmet`,
 
